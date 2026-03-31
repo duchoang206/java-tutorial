@@ -8,7 +8,7 @@ Thì màn hình sẽ hiển thị:
 2 7 6 3 4 8 9 7 6 10 */ 
 import java.util.Scanner;
 
-public class Array {
+public class bai11 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] a = new int[10];
