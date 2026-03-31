@@ -9,18 +9,19 @@ import java.util.Scanner;
 public class bai9giaibaitamham {
     public static int Cong( int a , int b) {
         int kq1 = a +b;
-        return kq1;
         System.out.println(kq1);
+        return kq1;
     }
     public static int Tru (int a , int b ) {
         int kq2 = a -b;
-        return kq2;
         System.out.println(kq2);
+        return kq2;
+        
     }
     public static int Nhan( int a , int b) {
         int kq3 = a*b;
-        return kq3;
         System.out.println(kq3);
+        return kq3;        
     }
     public static double Chia( int a , int b ) {
         if ( b==0) {
@@ -28,8 +29,8 @@ public class bai9giaibaitamham {
             return 0;
         } else {
             double kq4 = a/b;
-            return kq4;
             System.out.println(kq4);
+            return kq4;        
     }
 }
 
