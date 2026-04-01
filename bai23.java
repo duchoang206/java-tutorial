@@ -19,12 +19,13 @@ public class bai23 {
     Scanner sc = new Scanner(System.in);
     String s = sc.nextLine();
     char c = sc.next().charAt(0);
-    for ( char x : s.toCharArray()) {
-        if ( c == x ) {
-            System.out.println(s.charAt(x));
-        } else {
-            System.out.println(-1);
+    int kq = -1;
+    for ( int i = 0 ; i < s.length() ; i ++) {
+        if ( s.charAt(i)== c) {
+            kq = i;
+            break;
         }
     }
-    }    
+    System.out.println(kq);
+}
 }
