@@ -21,7 +21,7 @@ public class bai40 {
         String s12 = s11.substring(4);
         String s13 = s11.substring(4,6);
         System.out.println(s12);
-        
+        System.out.println(s13);
 
 
 
