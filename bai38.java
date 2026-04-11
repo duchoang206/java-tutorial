@@ -1,7 +1,7 @@
 /* kiểu char trong java , trong java khai báo nháy đơn bằng char còn nháy kép là cho chuỗi  */
 public class bai38 {
     public static void main(String[] args) {
-        char ch = 'x';
+        
         char ch1 = 65;
         char ch2 = 20;
         // Compare to 
