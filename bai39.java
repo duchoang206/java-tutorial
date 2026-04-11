@@ -14,6 +14,10 @@ public class bai39 {
         System.out.println(s);
         chuoi.insert(0,"a");
         System.out.println(chuoi);
+        chuoi.delete(0, 0);
+        System.out.println(chuoi);
+       chuoi.length();
+        System.out.println(chuoi.length());
 
 
 
