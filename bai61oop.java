@@ -7,9 +7,11 @@ các đối tượng có phương thức thuộc tính giống nhau được gom
  */
 public class bai61oop {
     public static void main(String[] args) {
-        //  khởi tạo đối tượng thuộc class sinh viên 
+        //  khởi tạo đối tượng thuộc class sinh vien
         SinhVien sv1 =new SinhVien();
         sv1.hienthithongtin();
+
+        
     }
     
 }
