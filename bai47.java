@@ -14,7 +14,7 @@ public class bai47 {
             if ( Character.isDigit(c) ) {
                 so.append(c);
             }
-            if ( Character.isLetter(c)) {
+            else if ( Character.isLetter(c)) {
                 chuoi.append(c);
             }
         }
